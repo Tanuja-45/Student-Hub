@@ -1,0 +1,156 @@
+
+.welcome-section {
+    background-color: #fcb5c6;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin-bottom: 0;
+    box-sizing: border-box; 
+}
+
+.welcome-text {
+    width: 50%;
+}
+
+.welcome-text h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.welcome-text p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.welcome-image {
+    width: 65%;
+    height: 120%;
+    background-size: cover;
+    background-position: center;
+}
+
+.button-card-row {
+    display: flex;
+    flex-wrap: wrap; 
+    margin-top: 0;
+    width: 100%;
+}
+
+.button-card {
+    flex: 1;
+    min-width: 250px;
+    padding: 40px;
+    text-align: center;
+    box-sizing: border-box; 
+}
+
+.button-card h4 {
+    margin-bottom: 20px;
+}
+
+.button-card p {
+    margin-bottom: 20px;
+}
+
+.btn-custom {
+    background-color: #6C757D;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.final-section {
+    background-color: #D0A9F5;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+.final-section p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card-light-pink {
+    background-color: #ffe3f5; 
+    padding :100px;
+}
+
+.card-white {
+    background-color: #ffffff;
+    padding:100px;
+}
+
+.card-danger {
+    background-color: #ff919c; 
+    padding:100px;
+}
+
+@media (max-width: 1200px) {
+    .welcome-image {
+        width: 50%;
+    }
+}
+
+@media (max-width: 992px) {
+    .welcome-section {
+        flex-direction: column;
+        height: auto; 
+    }
+
+    .welcome-text, .welcome-image {
+        width: 100%;
+        text-align: center;
+    }
+
+    .welcome-image {
+        height: 300px; 
+        background-position: top center;
+    }
+
+    .button-card {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .welcome-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .welcome-text p {
+        font-size: 1.2rem;
+    }
+
+    .button-card {
+        padding: 15px;
+    }
+
+    .final-section p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .welcome-text h1 {
+        font-size: 2rem;
+    }
+
+    .welcome-text p {
+        font-size: 1rem;
+    }
+
+    .button-card {
+        padding: 10px;
+    }
+
+    .final-section p {
+        font-size: 0.9rem;
+    }
+}

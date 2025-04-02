@@ -1,0 +1,28 @@
+.footer {
+    background-color: #343a40; /* Dark background color */
+    color: #f8f9fa; /* Light text color */
+    padding: 40px 0; /* Increased top and bottom padding */
+  }
+  
+  .footer .container {
+    max-width: 1200px; /* Container width */
+    margin: 0 auto; /* Center the container */
+    padding: 0 15px; /* Padding for responsive design */
+  }
+  
+  .footer-text {
+    margin-bottom: 20px; /* Increased space between paragraphs */
+    font-size: 1rem; /* Larger text size */
+    text-align: center; /* Center-align text */
+  }
+  
+  .footer-text a {
+    color: #17a2b8; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold links for better visibility */
+  }
+  
+  .footer-text a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  

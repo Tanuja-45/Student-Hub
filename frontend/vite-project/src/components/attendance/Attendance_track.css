@@ -1,0 +1,49 @@
+.attendance-result {
+    margin-top: 20px;
+    border: 1px solid #ddd; /* Border around the result section */
+    padding: 20px; /* Padding inside the result section */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background for the result section */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #ccc; /* Border around each cell */
+    padding: 10px; /* Padding inside each cell */
+    text-align: left; /* Align text to the left */
+}
+
+.table th {
+    background-color: #4CAF50; /* Green background for header */
+    color: white; /* White text for header */
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray for even rows */
+}
+
+.table tr:hover {
+    background-color: #ddd; /* Darker gray on hover */
+}
+
+.table td:first-child {
+    font-weight: bold; /* Bold font for roll number */
+}
+
+.btn-custom {
+    cursor: pointer; /* Change cursor to pointer on hover */
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 15px; /* Button padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.btn-custom:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
